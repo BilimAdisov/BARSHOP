@@ -1,0 +1,20 @@
+.topside {
+    width: 100%;
+    min-height: 768px;
+    background: url('../../assets/images/headimg.png');
+    background-size: cover;
+    background-attachment:fixed;
+    .topside-wrapper {
+        width: 100%;
+        height: 768px;
+        background-color: rgba(0,0,0,0.7);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
